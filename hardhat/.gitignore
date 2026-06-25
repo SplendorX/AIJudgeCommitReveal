@@ -29,3 +29,7 @@
 
 # Snapshot cheatcodes output
 /snapshots
+
+*.log
+dev-server.log
+dev-server.err
