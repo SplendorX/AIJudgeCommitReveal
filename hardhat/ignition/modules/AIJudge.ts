@@ -1,7 +1,7 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-export default buildModule("AIJudgeModule", (m) => {
-  const aiJudge = m.contract("AIJudge");
+export default buildModule("AIJudgeCommitRevealModule", (m) => {
+  const AiJudgeCommitReveal = m.contract("AIJudgeCommitReveal");
 
-  return { aiJudge };
+  return { AiJudgeCommitReveal };
 });

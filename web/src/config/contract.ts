@@ -1,5 +1,5 @@
 import type { Address } from "viem";
-import aiJudgeAbi from "@/abi/AIJudge";
+import aiJudgeAbi from "@/abi/AIJudgeCommitReveal";
 
 /**
  * Central place for the on-chain config the UI needs.
